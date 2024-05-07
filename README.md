@@ -9,31 +9,17 @@ Entity Relationship Diagram
 
 DESIGN STEPS
 STEP 1:Clone the problem from GitHub
-
- STEP 2:
-Create a new app in Django project
-
- STEP 3:
-Enter the code for admin.py and models.py
-
- STEP 4:
-Execute Django admin and create details for 10 books
-
- PROGRAM
-
-
-
-
-
+STEP 2:Create a new app in Django project
+STEP 3:Enter the code for admin.py and models.py
+STEP 4:Execute Django admin and create details for 10 books
+PROGRAM
 
 admin.py
-
 from django.contrib import admin
 from .models import railway,railwayAdmin
 admin.site.register(railway,railwayAdmin)
 
 models.py
-
 from django.db import models
 from django.contrib import admin
 class railway (models.Model):
@@ -47,14 +33,10 @@ class railway (models.Model):
  
 class railwayAdmin(admin.ModelAdmin):
     list_display=('train_code','train_name','start_time','End_time','start_station_code','end_station_code',)
-
 ~~~
-
 ## OUTPUT
 
 ![image](https://github.com/niranjanadevi-s/ORM/assets/141748873/e069375c-0f91-4ac4-8b95-c16d1c9870b4)
-
-
 
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully
