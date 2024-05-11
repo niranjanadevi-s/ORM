@@ -10,10 +10,10 @@ To develop a Django application to store and retrieve data from a Book database 
 ![image](https://github.com/niranjanadevi-s/ORM/assets/141748873/af034ba2-5226-46b2-aafe-94a0d08a1589)
 
 ## DESIGN STEPS
-STEP 1:Clone the problem from GitHub
-STEP 2:Create a new app in Django project
-STEP 3:Enter the code for admin.py and models.py
-STEP 4:Execute Django admin and create details for 10 books
+STEP 1:  Clone the problem from GitHub
+STEP 2:  Create a new app in Django project
+STEP 3 : Enter the code for admin.py and models.py
+STEP 4:  Execute Django admin and create details for 10 books
 ## PROGRAM
 ## admin.py
 ~~~
